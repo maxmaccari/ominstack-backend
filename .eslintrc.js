@@ -13,5 +13,9 @@ module.exports = {
         "ecmaVersion": 2018
     },
     "rules": {
+        "class-methods-use-this": 0,
+        "no-underscore-dangle": 0,
+        "func-names": 0,
+        "no-param-reassign": 1,
     }
 };
