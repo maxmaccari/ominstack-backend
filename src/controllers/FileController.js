@@ -8,7 +8,7 @@ class FileController {
     const file = await File.create({
       title: req.file.originalname,
       path: req.file.key,
-    })
+    });
 
     box.files.push(file);
 
